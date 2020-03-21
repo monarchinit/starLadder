@@ -5,18 +5,29 @@ const Header = () => {
   const [flagRenderListMatches, setFlagRenderListMatches] = useState(true);
   const [flagRenderListBattles, setFlagRenderListBattles] = useState(false);
 
-  const RenderListMatches = () => {
+  const RenderListMatches = e => {
+    console.log(e.key);
     if (flagRenderListMatches && !flagRenderListBattles) {
       return;
     }
+    // if (e.key === "Enter") {
+    //   setFlagRenderListMatches(true);
+    //   setFlagRenderListBattles(false);
+    //   return;
+    // }
     setFlagRenderListMatches(true);
     setFlagRenderListBattles(false);
   };
 
-  const RenderListBattles = () => {
+  const RenderListBattles = e => {
     if (flagRenderListBattles && !flagRenderListMatches) {
       return;
     }
+    // if (e.key === "Enter") {
+    //   setFlagRenderListBattles(true);
+    //   setFlagRenderListMatches(false);
+    //   return;
+    // }
     setFlagRenderListBattles(true);
     setFlagRenderListMatches(false);
   };
@@ -24,26 +35,21 @@ const Header = () => {
     <header className="header">
       <h1 className="header__title">Make me up!</h1>
       <div className="viewButtonsContainer">
-        <NavLink exact to="/matches">
-          <button
+        <NavLink onClick={RenderListMatches} exact to="/matches">
+          <div
             style={{ backgroundColor: flagRenderListMatches && "#ff5e5e" }}
-            onClick={RenderListMatches}
             className="viewButtonsContainer__Button"
           >
-            Matches
-          </button>{" "}
+          <span className="viewButtonsContainer__content"> Matches</span> 
+          </div>
         </NavLink>
-        <NavLink
-          exact
-          to="/battles"
-        >
-          <button
+        <NavLink onClick={RenderListBattles} exact to="/battles">
+          <div
             style={{ backgroundColor: flagRenderListBattles && "#ff5e5e" }}
-            onClick={RenderListBattles}
             className="viewButtonsContainer__Button"
           >
-            Battles
-          </button>{" "}
+            <span className="viewButtonsContainer__content">Battles</span> 
+          </div>{" "}
         </NavLink>
       </div>
     </header>

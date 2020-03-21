@@ -49,10 +49,10 @@ body {
 }
 
 .viewButtonsContainer__Button {
+  display: inline-block;
   width: 26.57vw;
   height: 12.08vw;
-  background: transparent;
-  border: none;
+  text-align: center;
   font-family: Roboto;
   font-style: normal;
   font-weight: bold;
@@ -62,6 +62,10 @@ body {
   text-transform: uppercase;
   color: #ffffff;
   cursor: pointer;
+}
+
+.viewButtonsContainer__content {
+  line-height: 12.08vw;
 }
 
 /* ---------------------------------------------main------------------------------------- */
@@ -280,12 +284,16 @@ body {
   }
 
   .viewButtonsContainer__Button {
+    display: inline-block;
     width: 9.1vw;
     height: 3.1vw;
     font-size: 0.73vw;
     line-height: 140%;
   }
 
+  .viewButtonsContainer__content {
+    line-height: 3.1vw;
+  }
   /* ---------------------------------------------main------------------------------------- */
 
   .actionList {
@@ -301,11 +309,11 @@ body {
     padding: 1.1vw;
     margin-bottom: 1.82vw;
     background-size: 54.17%;
+    /* box-sizing: content-box; */
   }
 
   .actionItem__wrapperHeader {
     font-size: 0.73vw;
-
   }
 
   .actionItem__dateStart {
