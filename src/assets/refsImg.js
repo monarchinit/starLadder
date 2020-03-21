@@ -1,0 +1,18 @@
+export default {
+  upcoming: "./images/starComponentsUpcoming.svg",
+  live: "./images/starComponentsLive.svg",
+  finished: "./images/starComponentFinished.svg",
+  play: "./images/play.svg",
+  warrior: "./images/warrior.svg",
+  alfaStar: "./images/alfaStar.svg",
+  people: "./images/people.svg",
+  forze: "./images/forze.svg",
+  boom: "./images/boom.svg",
+  alfaShield: "./images/alfaShield.svg",
+  naping: "./images/naping.svg",
+  ggbet: "./images/ggbet.svg",
+  disciplineP: "./images/disciplineP.svg",
+  cup: "./images/cup.svg",
+  hieroglyph:"./images/hieroglyph.svg",
+  lamp:"./images/lamp.svg",
+};

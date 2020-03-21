@@ -1,0 +1,105 @@
+export default [
+    {
+      _id: "1",
+      status: "live",
+      nameTurnir: "Asia Minor: Play-Off",
+      logoDiscipline: [],
+      logoComands: ["warrior", "hieroglyph"],
+      comandOne: { name: "Dianne Henry", kof: "3.22" },
+      comandTwo: { name: "Bernard Warren", kof: "53.22" },
+      system: "Bo 3",
+      logoPartner: "ggbet"
+    },
+    {
+      _id: "2",
+      status: "upcoming",
+      nameTurnir: "Asia Minor: Play-Off",
+      timeStart: "19:00",
+      dateStart: "29 октября",
+      logoDiscipline: [],
+      logoComands: ["lamp", "hieroglyph"],
+      comandOne: { name: "Tanya Nurphy", kof: "3.22" },
+      comandTwo: { name: "Savannah Mccoy", kof: "53.22" },
+      system: "Starts in: 5 hours 39 min · Bo 3",
+      logoPartner: "ggbet"
+    },
+    {
+      _id: "3",
+      status: "upcoming",
+      nameTurnir: "Asia Minor: Play-Off",
+      timeStart: "19:00",
+      dateStart: "29 октября",
+      logoDiscipline: [],
+      logoComands: ["lamp", "warrior"],
+      comandOne: { name: "Francisco Richards", kof: "3.22" },
+      comandTwo: { name: "Ted Fisher", kof: "53.22" },
+      system: "Starts in: 5 hours 39 min · Bo 3",
+      logoPartner: "ggbet"
+    },
+    {
+      _id: "4",
+      status: "upcoming",
+      nameTurnir: "Asia Minor: Play-Off",
+      timeStart: "19:00",
+      dateStart: "29 октября",
+      logoDiscipline: [],
+      logoComands: ["lamp", "hieroglyph"],
+      comandOne: { name: "Arlene Robertson", kof: "3.22" },
+      comandTwo: { name: "Scarlett Bckinney", kof: "53.22" },
+      system: "Starts in: 5 hours 39 min · Bo 3",
+      logoPartner: "ggbet"
+    },
+    {
+      _id: "5",
+      status: "finished",
+      nameTurnir: "Asia Minor: Play-Off",
+      timeStart: "19:00",
+      dateStart: "29 октября",
+      logoDiscipline: [],
+      logoComands: ["warrior", "hieroglyph"],
+      comandOne: { name: "Secrenity Alexander", res: "2" },
+      comandTwo: { name: "Priscilla Lane", res: "1" },
+      system: "0:1·0:1·0:1",
+      logoPartner: "ggbet"
+    },
+    {
+      _id: "6",
+      status: "finished",
+      nameTurnir: "Asia Minor: Play-Off",
+      timeStart: "19:00",
+      dateStart: "29 октября",
+      logoDiscipline: [],
+      logoComands: ["lamp", "hieroglyph"],
+      comandOne: { name: "Theresa Hawkins", res: "2" },
+      comandTwo: { name: "Kyle Steward", res: "1" },
+      system: "1:0·1:0·1:0",
+      logoPartner: "ggbet"
+    },
+    {
+      _id: "7",
+      status: "finished",
+      nameTurnir: "Asia Minor: Play-Off",
+      timeStart: "19:00",
+      dateStart: "29 октября",
+      logoDiscipline: [],
+      logoComands: ["lamp", "warrior"],
+      comandOne: { name: "Lily Watson", res: "2" },
+      comandTwo: { name: "Diane Williamson", res: "1" },
+      system: "0:1·0:1·0:1",
+      logoPartner: "ggbet"
+    },
+    {
+      _id: "8",
+      status: "finished",
+      nameTurnir: "Asia Minor: Play-Off",
+      timeStart: "19:00",
+      dateStart: "29 октября",
+      logoDiscipline: [],
+      logoComands: ["lamp", "hieroglyph"],
+      comandOne: { name: "Aubrey Pena", res: "2" },
+      comandTwo: { name: "Leslie Nguyen", res: "1" },
+      system: "0:1·0:1·0:1",
+      logoPartner: "ggbet"
+    }
+  ];
+  
